@@ -1,0 +1,13 @@
+# secrets / OAuth tokens — never commit
+*token*.json
+*client_secret*
+*credentials*.json
+gmail-token.json
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
