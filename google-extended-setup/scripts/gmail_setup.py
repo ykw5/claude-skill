@@ -18,9 +18,9 @@ import sys
 from pathlib import Path
 
 SCOPES = [
-    "https://www.googleapis.com/auth/gmail.modify",
-    "https://www.googleapis.com/auth/gmail.compose",
-    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/gmail.modify",   # read + send + reply + drafts + labels
+    "https://www.googleapis.com/auth/gmail.compose",  # drafts (subsumed by modify; explicit)
+    "https://www.googleapis.com/auth/tasks",          # Google Tasks
 ]
 
 TOKEN_DIR = Path.home() / "claude-gmail"

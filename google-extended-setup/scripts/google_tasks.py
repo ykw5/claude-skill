@@ -32,7 +32,7 @@ import json
 import sys
 from pathlib import Path
 
-TOKEN_FILE = Path.home() / "Dropbox" / "AI" / "gmail-token.json"
+TOKEN_FILE = Path.home() / "claude-gmail" / "gmail-token.json"
 
 
 def get_credentials():

@@ -34,7 +34,7 @@ from email import encoders
 import mimetypes
 from pathlib import Path
 
-TOKEN_FILE = Path(__file__).parent / "gmail-token.json"
+TOKEN_FILE = Path.home() / "claude-gmail" / "gmail-token.json"  # unified token
 
 def get_credentials():
     if not TOKEN_FILE.exists():
